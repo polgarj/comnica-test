@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #333333;
+
+  header {
+    background: linear-gradient(315deg, rgba(178,224,213,1) 0%, rgba(212,237,231,1) 100%);
+    padding: 20px 20px 30px;
+  }
+
+  .logo {
+    width: 195px;
+  }
+
+  .main-title {
+    line-height: 1;
+    color: #186553;
+    font-size: 2.5rem;
+    margin: 30px 0 10px;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  main {
+    flex: 1;
+    background: linear-gradient(0deg, rgba(222,241,237,1) 0%, rgba(236,247,243,1) 100%);
+    padding: 30px 20px 30px;
+  }
+
+  .welcome-text {
+    color: #682c5d;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .description-text {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+
+  header > *,
+  main > * {
+
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+
+    .no-wrap {
+      white-space: nowrap;
+    }
+
+    header {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .main-title {
+      margin: 100px 0 10px;
+    }
+
+    main {
+      flex: 1;
+      padding: 170px 30px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+
+    header {
+      flex: 2;
+      background-image: url(../assets/images/background.png), linear-gradient(315deg, rgba(178,224,213,1) 0%, rgba(212,237,231,1) 100%);
+      background-position: 93% 45%;
+      background-repeat: no-repeat;
+      background-size: 350px, 100%;
+    }
+
+    .main-title {
+      margin: 100px 50px 10px;
+    }
+
+    .subtitle {
+      margin: 0 50px;
+    }
+
+    main {
+      padding: 170px 50px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+
+    header {
+      background-position: 90% 30%;
+      background-size: 380px, 100%;
+    }
+
+    .main-title {
+      font-size: 3rem;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+    }
+
+    .welcome-text {
+      font-size: 2.4rem;
+    }
+
+    .description-text {
+      font-size: 1.5rem;
+    }
+
+  }
+}
