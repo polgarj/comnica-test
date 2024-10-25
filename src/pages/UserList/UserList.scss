@@ -1,0 +1,22 @@
+h1 {
+    margin: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.2;
+
+    &::marker {
+        color: transparent;
+    }
+}
+
+.user-marker {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}

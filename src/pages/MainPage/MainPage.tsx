@@ -1,6 +1,6 @@
 import './MainPage.scss';
-import Button from '../components/Button/Button';
-import logo from '../assets/images/comnica-logo.png'
+import Button from '../../components/Button/Button';
+import logo from '../../assets/images/comnica-logo.png';
 
 const MainPage = () => {
   return (

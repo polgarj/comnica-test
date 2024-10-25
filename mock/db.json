@@ -1,0 +1,22 @@
+{
+    "users": [
+        { "id": 1, "name": "Alice" },
+        { "id": 2, "name": "Bob" },
+        { "id": 3, "name": "Charlie" },
+        { "id": 4, "name": "Dwayne" },
+        { "id": 5, "name": "Edward" },
+        { "id": 6, "name": "Francis" }
+      ],
+    "colors": [
+      { "id": 1, "color": "red" },
+      { "id": 2, "color": "green" },
+      { "id": 3, "color": "blue" },
+      { "id": 4, "color": "pink" },
+      { "id": 5, "color": "darkkhaki" },
+      { "id": 6, "color": "cyan" },
+      { "id": 7, "color": "orange" },
+      { "id": 8, "color": "purple" },
+      { "id": 9, "color": "goldenrod" },
+      { "id": 10, "color": "mistyrose" }
+    ]
+}
