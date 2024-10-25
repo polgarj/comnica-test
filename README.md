@@ -1,6 +1,6 @@
 # Comnica Signature
 
-This is József Polgár's solution to the Frontend developer test task.
+This is József Polgár's solution to the "Frontend developer teszt" task.
 
 ## Snapshot
 ![snapshot](./snapshot.png)
