@@ -28,6 +28,7 @@ Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser
 Adott egy gomb. Elvileg minden rendben kód szinten, mégsem csinál semmit se hover, se egyéb eseményre (nem disabled). Mi lehet a probléma, mi okozhat ilyen jelenséget?
 
 - Átlátszó elem van a gomb felett. Többek között position és z-index-re vonatkozó css szabályok okozhatnak ilyesmit.
+- Ha a `pointer-events: none;` css parancs érvényesül letiltja a hover és click eventeket.
 
 ## 3rd task - User List
 
